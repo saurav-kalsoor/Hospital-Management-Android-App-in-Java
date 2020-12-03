@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81D4FA">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/hospital_background" />
+
+        <TextView
+            android:id="@+id/homet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_home"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center_vertical"
+            android:text="Hello Doctor!"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_home_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/homet1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:text="Name"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_approve_appointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_home"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_approve"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="25dp"
+            android:text="Approve Appointments"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_pending_appointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_approve_appointments"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_pending"
+            android:gravity="center"
+            android:paddingStart="8dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="25dp"
+            android:text="Pending Appointments"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:id="@+id/button_completed_appointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_pending_appointments"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_check_appointment"
+            android:gravity="center"
+            android:paddingStart="8dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="25dp"
+            android:text="Completed Appointments"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_your_patients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_completed_appointments"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_patient"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="25dp"
+            android:text="Patients Prescriptions"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

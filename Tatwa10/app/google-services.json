@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326258753026",
+    "firebase_url": "https://tatwa-7815f.firebaseio.com",
+    "project_id": "tatwa-7815f",
+    "storage_bucket": "tatwa-7815f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326258753026:android:15c1ed42132ced6f8ef11b",
+        "android_client_info": {
+          "package_name": "com.example.tatwa10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326258753026-ht587ahbcmqj3e6412mnpnf8fj8acce1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRATLY81jSbTOhjf07KyeCNX-SUaM9kB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326258753026-ht587ahbcmqj3e6412mnpnf8fj8acce1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

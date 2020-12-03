@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_button_border"
+    android:padding="16dp"
+    tools:context=".AddProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_view_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/male" />
+
+    <EditText
+        android:id="@+id/edit_text_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view_profile"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_border"
+        android:hint="Enter Your Name"
+        android:inputType="textCapWords"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_profile_name"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_border"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_profile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_profile_email"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_border"
+        android:padding="8dp"
+        android:text="Phone Number :   8147921339"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:background="@drawable/custom_button_border"
+        android:layout_width="match_parent"
+        android:layout_below="@id/text_view_profile_number"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t01"
+            android:text="Sex"
+            android:textStyle="bold"
+            android:layout_marginStart="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_profile_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toEndOf="@id/t01">
+
+            <RadioButton
+                android:id="@+id/radio_button_profile_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:checked="true"
+                android:text="Male"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_button_profile_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/radio_button_profile_male"
+                android:text="Female"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/edit_text_profile_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r1"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_border"
+        android:hint="Enter Your Age"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_profile_continue_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button_border_2"
+        android:text="Continue"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

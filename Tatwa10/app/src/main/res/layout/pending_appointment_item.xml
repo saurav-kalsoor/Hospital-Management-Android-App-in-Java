@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginTop="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_border"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/_001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Name : "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_item_pending_appointment_patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/_001"
+            android:layout_alignBottom="@id/_001"
+            android:layout_toEndOf="@id/_001"
+            android:gravity="center_vertical"
+            android:text="Saurav Kalsoor"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/_003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/_002"
+            android:layout_alignTop="@id/text_view_item_pending_appointment_patient_contact"
+            android:layout_alignBottom="@id/text_view_item_pending_appointment_patient_contact"
+            android:gravity="center_vertical"
+            android:text="Patient Contact No : "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_item_pending_appointment_patient_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_item_pending_appointment_patient_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/_002"
+            android:text="+918147921339"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/_002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/_001"
+            android:layout_alignTop="@id/text_view_item_pending_appointment_date"
+            android:layout_alignBottom="@id/text_view_item_pending_appointment_date"
+            android:gravity="center_vertical"
+            android:text="Appointment Date : "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_item_pending_appointment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_item_pending_appointment_patient_contact"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/_002"
+            android:text="24/03/2013"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/_004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/_003"
+            android:layout_alignTop="@id/text_view_item_pending_appointment_time"
+            android:layout_alignBottom="@id/text_view_item_pending_appointment_time"
+            android:gravity="center_vertical"
+            android:text="Appointment Time : "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_item_pending_appointment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_item_pending_appointment_date"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/_003"
+            android:text="9:00 am"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_view_call_patient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_telephone_call"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/text_view_item_pending_appointment_time"
+            android:layout_marginTop="12dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/image_view_message_patient"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/image_view_call_patient"
+            android:src="@drawable/ic_telephone_message"
+            android:layout_below="@id/text_view_item_pending_appointment_time"
+            android:layout_marginTop="12dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

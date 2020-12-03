@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="16dp"
+        android:background="@drawable/custom_button_border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prescribed By : "
+            android:textSize="20sp"
+            android:id="@+id/text_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/text_1"
+            android:text="Dr Sanjeev Kalsoor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/text_view_doctor_prescribed_by"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Name : "
+            android:layout_alignTop="@id/text_view_medicine_name"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:id="@+id/text_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text_2"
+            android:text="Crocin"
+            android:layout_below="@id/text_view_doctor_prescribed_by"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:id="@+id/text_view_medicine_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time : "
+            android:layout_below="@id/text_view_medicine_name"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/text_3"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/custom_button_border_2"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/text_view_medicine_name"
+            android:layout_toEndOf="@id/text_3"
+            android:text="Breakfast"
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:layout_alignTop="@id/text_3"
+            android:textSize="12sp"
+            android:layout_alignBottom="@id/text_3"
+            android:id="@+id/button_breakfast"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/custom_button_border_2"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/text_view_medicine_name"
+            android:layout_toEndOf="@id/button_breakfast"
+            android:text="Lunch"
+            android:layout_marginStart="4dp"
+            android:textAllCaps="false"
+            android:layout_alignTop="@id/button_breakfast"
+            android:visibility="invisible"
+            android:textSize="12sp"
+            android:layout_alignBottom="@id/button_breakfast"
+            android:id="@+id/button_lunch"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/custom_button_border_2"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/text_view_medicine_name"
+            android:layout_toEndOf="@id/button_lunch"
+            android:text="Dinner"
+            android:textAllCaps="false"
+            android:visibility="invisible"
+            android:layout_marginStart="4dp"
+            android:layout_alignTop="@id/button_breakfast"
+            android:textSize="12sp"
+            android:layout_alignBottom="@id/button_breakfast"
+            android:id="@+id/button_dinner"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Start : "
+            android:layout_below="@id/text_3"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/text_4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14/05/2001"
+            android:textStyle="bold"
+            android:layout_alignBottom="@id/text_4"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_alignTop="@id/text_4"
+            android:layout_below="@id/text_3"
+            android:layout_toEndOf="@id/text_4"
+            android:id="@+id/text_view_date_start"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Date End : "
+            android:layout_below="@id/text_4"
+            android:id="@+id/text_5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_4"
+            android:text="21/05/2001"
+            android:gravity="center"
+            android:layout_toEndOf="@id/text_5"
+            android:textSize="14sp"
+            android:layout_alignTop="@id/text_5"
+            android:layout_alignBottom="@id/text_5"
+            android:textStyle="bold"
+            android:id="@+id/text_view_date_end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_3"
+            android:layout_alignTop="@id/text_4"
+            android:layout_toEndOf="@id/text_view_date_start"
+            android:text="Duration : "
+            android:textStyle="bold"
+            android:layout_alignBottom="@id/text_4"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:id="@+id/text_6"/>
+
+        <TextView
+            android:id="@+id/text_view_item_medicine_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_6"
+            android:layout_alignStart="@id/text_6"
+            android:text="7 Days"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

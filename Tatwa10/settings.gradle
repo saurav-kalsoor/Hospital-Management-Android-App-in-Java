@@ -1,0 +1,2 @@
+rootProject.name='Tatwa 1.0'
+include ':app'

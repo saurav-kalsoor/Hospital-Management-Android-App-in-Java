@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/custom_button_border"
+    tools:context=".StartingActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Tatwa Digital Health Care"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/start1"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/start1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:id="@+id/start_image"
+        android:src="@mipmap/logo2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Are You A?"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/start_image"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:id="@+id/start2"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="Doctor"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_border_3"
+        android:layout_below="@id/start2"
+        android:id="@+id/button_start_doctor"/>
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Patient"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_border_2"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button_start_patient"
+        android:layout_below="@id/start2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button_border_2"
+        android:text="Continue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:id="@+id/button_start_continue"/>
+
+</RelativeLayout>

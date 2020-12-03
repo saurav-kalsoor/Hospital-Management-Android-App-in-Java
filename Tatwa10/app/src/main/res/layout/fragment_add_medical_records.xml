@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/custom_button_border"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_border"
+        android:hint="Add Title"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/edit_text_add_medical_record_title"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_add_medical_record_title"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_border_2"
+        android:text="Choose File"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/button_choose_file_medical_records"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_choose_file_medical_records"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_border_2"
+        android:text="Upload Document"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/button_upload_document_medical_records"/>
+
+
+</RelativeLayout>

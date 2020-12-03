@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:showIn="scroll_view">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:src="@mipmap/hosp" />
+
+        <Button
+            android:id="@+id/button_emergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/background_image"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_siren"
+            android:drawablePadding="20dp"
+            android:elevation="80dp"
+            android:padding="25dp"
+            android:text="Emergency! \nCall An Ambulance"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_book_appointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_emergency"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawablePadding="20dp"
+            android:elevation="80dp"
+            android:padding="25dp"
+            android:text="Book An Appointment"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_find_doctors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_book_appointment"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_doctor"
+            android:drawablePadding="20dp"
+            android:elevation="80dp"
+            android:padding="25dp"
+            android:text="Find Doctors!"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_view_prescriptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_find_doctors"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_checkup"
+            android:drawablePadding="20dp"
+            android:elevation="80dp"
+            android:padding="25dp"
+            android:text="View Prescriptions"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_medical_records"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_view_prescriptions"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/custom_button_border"
+            android:drawableStart="@drawable/ic_medical_record2"
+            android:drawablePadding="20dp"
+            android:elevation="80dp"
+            android:padding="25dp"
+            android:text="Medical Records"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Select Doctor"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner_doctors_list"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/doctor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/custom_button_border"
+            android:paddingStart="8dp"
+            android:popupBackground="@color/light_blue" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/spinner_doctors_list"
+            android:layout_alignEnd="@id/spinner_doctors_list"
+            android:layout_alignBottom="@id/spinner_doctors_list"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_arrow_drop_down" />
+
+        <EditText
+            android:id="@+id/edit_text_medicine_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner_doctors_list"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_button_border"
+            android:hint="Medicine Name"
+            android:padding="12dp" />
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_medicine_name"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_button_border"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/text_view_medicine_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:text="Medicine Time"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkbox_breakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_medicine_time"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Breakfast"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkbox_breakfast"
+                android:layout_alignStart="@id/checkbox_breakfast"
+                android:text="Lunch"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_dinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkbox_lunch"
+                android:layout_alignStart="@id/checkbox_breakfast"
+                android:text="Dinner"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rel1"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_button_border">
+
+            <TextView
+                android:id="@+id/text_view_medicine_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="16dp"
+                android:text="Medicine Duration : "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <NumberPicker
+                android:id="@+id/number_picker_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/text_view_medicine_duration" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/number_picker_duration"
+                android:text="Days"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel2"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_button_border"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/date_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Date Start :"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_view_date_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/date_start"
+                android:src="@drawable/ic_calendar2" />
+
+            <TextView
+                android:id="@+id/text_view_add_date_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/image_view_date_start"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date_start"
+                android:text="Date End :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date_start"
+                android:layout_toEndOf="@id/date_start"
+                android:text=""
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="-50dp"
+                android:textSize="18sp"
+                android:id="@+id/text_view_add_date_end"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

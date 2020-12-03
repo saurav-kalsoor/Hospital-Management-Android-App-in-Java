@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_button_border"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/spinner_appointment_doctors"
+        android:layout_alignBottom="@id/spinner_appointment_doctors"
+        android:gravity="center_vertical"
+        android:text="Dr. Name : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_appointment_doctors"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@id/_1"
+        android:background="@drawable/custom_button_border" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/spinner_appointment_doctors"
+        android:layout_alignEnd="@id/spinner_appointment_doctors"
+        android:layout_alignBottom="@id/spinner_appointment_doctors"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_arrow_drop_down" />
+
+    <TextView
+        android:id="@+id/_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/_1"
+        android:layout_alignTop="@id/button_appointment_today"
+        android:layout_alignBottom="@id/button_appointment_today"
+        android:gravity="center_vertical"
+        android:text="Select Date : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_appointment_today"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/_1"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/_2"
+        android:background="@drawable/custom_button_border_2"
+        android:padding="4dp"
+        android:text="Today"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_appointment_tomorrow"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button_appointment_today"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/button_appointment_today"
+        android:background="@drawable/custom_button_border_3"
+        android:padding="4dp"
+        android:text="Tomorrow"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/_2"
+        android:layout_alignTop="@id/spinner_time_slots"
+        android:layout_alignBottom="@id/spinner_time_slots"
+        android:gravity="center"
+        android:text="Select Slot : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_time_slots"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/_2"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/_3"
+        android:background="@drawable/custom_button_border" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/spinner_time_slots"
+        android:layout_alignEnd="@id/spinner_time_slots"
+        android:layout_alignBottom="@id/spinner_time_slots"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_arrow_drop_down" />
+
+    <Button
+        android:id="@+id/button_proceed_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button_border_2"
+        android:text="Proceed To Payment"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

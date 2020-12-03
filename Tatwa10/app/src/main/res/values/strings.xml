@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Tatwa 1.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="doctors_name">
+        <item>Dr Adiveppa Hosangadi</item>
+        <item>Dr Amruth</item>
+        <item>Dr Bharat Kshatri</item>
+        <item>Dr Bhushan Gramopadya</item>
+        <item>Dr Chandrashekar Kachapur</item>
+        <item>Dr Ishwar Hosmani</item>
+        <item>Dr Kasturi Donimath</item>
+        <item>Dr Kiran Kattimani</item>
+        <item>Dr Krishna Baradol</item>
+        <item>Dr Manjuprasad</item>
+        <item>Dr N M Didagur</item>
+        <item>Dr Raghav Bhosale</item>
+        <item>Dr Rajshankar Sankal</item>
+        <item>Dr Ramesh Timanaykar</item>
+        <item>Dr Ravi Khasnis</item>
+        <item>Dr Ravindra Elgar</item>
+        <item>Dr S P Baligar</item>
+        <item>Dr Sanjeev Kalsoor</item>
+        <item>Dr Sanjeev Kulgod</item>
+        <item>Dr Shankargouda Patil</item>
+        <item>Dr Sharankumar</item>
+        <item>Dr Sheetal Kulgod</item>
+        <item>Dr Shivanand Illalu</item>
+        <item>Dr Shrinivas H</item>
+        <item>Dr Somashekharappa Kadur</item>
+        <item>Dr Sudhindrashayana Fattepur</item>
+        <item>Dr Sunil Gayad</item>
+        <item>Dr Suresh Hucchannavar</item>
+        <item>Dr Ullas Bisleri</item>
+        <item>Dr Umesh Bilagi</item>
+        <item>Dr Venkatesh Muger</item>
+        <item>Dr Venkatesh Mulimani</item>
+        <item>Dr Vijaykrishna Kolur</item>
+        <item>Dr Vinod Ratageri</item>
+        <item>Dr Ravi S Nemagouda</item>
+    </string-array>
+
+    <string-array name="doctors_qualifications">
+        <item>MBBS MS(Ortho)</item>
+        <item>MBBS MD DM</item>
+        <item>MBBS MS MCh</item>
+        <item>MBBS MD DM</item>
+        <item>MBBS DNB</item>
+        <item>MBBS MS</item>
+        <item>MBBS MD</item>
+        <item>MBBS MD DM</item>
+        <item>MD IDCCM</item>
+        <item>MBBS MS MCh</item>
+        <item>MBBS DA</item>
+        <item>MBBS DA DNB</item>
+        <item>MBBS MS MCh</item>
+        <item>MD IDCCM</item>
+        <item>MS MCh</item>
+        <item>MS MCh</item>
+        <item>MS MCh</item>
+        <item>MS MCh</item>
+        <item>MBBS MS MCh</item>
+        <item>MD(Anesth) IDCCM</item>
+        <item>-</item>
+        <item>MBBS MS(OBG)</item>
+        <item>-</item>
+        <item>MBBS DA</item>
+        <item>-</item>
+        <item>MD(Paed)</item>
+        <item>MBBS MD(Int Med) D.Diab</item>
+        <item>MBBS MS</item>
+        <item>MBBS MS MCh</item>
+        <item>MBBS MD DM(Cardio)</item>
+        <item>-</item>
+        <item>MBBS MS(Ortho)</item>
+        <item>MBBS MD DM(Cardio)</item>
+        <item>MBBS MD</item>
+        <item>MBBS MS MCH</item>
+    </string-array>
+
+    <string-array name="doctor_specification_field">
+        <item>Orthopedics</item>
+        <item>Neurology</item>
+        <item>Urology</item>
+        <item>Neurology</item>
+        <item>Internal Medicine</item>
+        <item>General Surgery</item>
+        <item>OBG</item>
+        <item>Onco Medicine</item>
+        <item>Critical Care Medicine</item>
+        <item>Urology</item>
+        <item>Anaesthesiology</item>
+        <item>Anaesthesiology</item>
+        <item>Paediatrics Surgery</item>
+        <item>Critical Care Medicine</item>
+        <item>Paediatrics Surgery</item>
+        <item>Plastic Surgery</item>
+        <item>Neuro Surgery</item>
+        <item>Neuro Surgery</item>
+        <item>Onco Surgery</item>
+        <item>Critical Care Medicine</item>
+        <item>Anaesthesiology</item>
+        <item>OBG</item>
+        <item>Paediatrics</item>
+        <item>Anaesthesiology</item>
+        <item>Pain Clinic(Interventional)</item>
+        <item>Paediatrics</item>
+        <item>Internal Medicine</item>
+        <item>General Surgery</item>
+        <item>Cardiac Thoracic Surgery</item>
+        <item>Cardiology</item>
+        <item>Nephrology</item>
+        <item>Orthopedics</item>
+        <item>Cardiology</item>
+        <item>Paediatrics</item>
+        <item>Plastic Surgery</item>
+    </string-array>
+
+    <string-array name="doctors_description">
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+        <item>Null</item>
+    </string-array>
+
+    <!--    <string-array name="doctors_description">-->
+    <!--        <item>Working as an orthopedic surgeon with sixteen years of surgical experience. we are handling polytrauma patients regularly.I am regularly doing joint replacements both hip and knee at an affordable price.</item>-->
+    <!--        <item>Dr. Amruth MBBS. MD (General Medicine) DM (Neurology) Qualification:-MBBS,Karnataka medical college, Hubli.Karnataka university, Dharwad (1995) MD (General Medicine) : M.R Medical College,Gulbarga. RGUHS, Bangalore (2000) DM (Neurology) BMCRI, .Bangalore. RGUHS, Bangalore (2012) Special Interest: - in Neuro Critical care and Electrophysiology Field of Expertise:-16Years in Academics and practice Department Details:- Department of Neurology is well equipped with electro-physiology Lab:-Electro encephalography Electro Neuro Myography •	Nerve conduction studies • Visual Evoked Potential •	Brain stem auditory Evoked Potential •	SSEP(Somatosensory evoked potential) • VEMP(Vistibular Evoked potential) •	Trans Cranial Doppler •	Stroke ICU •	Headache clinic •	Epilepsy clinic • EEG,NCS</item>-->
+    <!--        <item>Dr.Bharat Kshatri MBBS. M.S. M.Ch. DNB (Urology) Qualification:-MBBS, KMC Hubli. Karnataka University, Dharwad year 1981 M.S KMC ,Hubli .Karnataka University, Dharwad year 1992 M.Ch ,J.J.H.S (GMC), Bombay year1995 DNB .Delhi 1995 Field of Expertise:- • Worked As Consultant Urologist at SDM,Medical college,Dharwad for 3Years Post MCh. • Working as Consultant Urologist at Tatwadarsha Hospital Hubballi from last 4 Years. Special Interest:-Renal Transplant, Lasers in Urology, Infertility</item>-->
+    <!--        <item>-</item>-->
+    <!--        <item>Qualification: - MBBS (Kasturba medical college,manglore MAHE manipal 1995) DNB (St marthas Hospital Banglore NBE,NewDelhi,2004) Field of Expertise:-Medicine •	Special interest:- Diabetics Care HIV and Infection, Disease Care Geriatric Care</item>-->
+    <!--        <item>Qualification:- MBBS, KMC Hubli, KUD, 1989. MS:- KMC, KUD, 1993. FMAS, FIAGES:- AMAS association,New Delhi, 2007,2012 Field of Expertise:- 24 years Special Interest:- Laproscopy Basic Advanced, Endoscopy Diagnostic , Therapeutic Thoracic Surgeries Gen Surgery and GI Surgery Head and Neck Surgeries. Department Details:- General Surgery Unit Comprises- routine general surgeries, specialised gen surgeries, head and neck surgeries, thoracic surgeries, Thoracoscopy:Diagnostic and Therapeutic. Laproscopy Unit Basic and Advanced Endoscopy Diagnostic Upper Gen surgery, Lower gen surgery. Therapeutic :- F.B removal, Sclerothescopy, Banding / Glup injection, Stent placement, ERCP, Dilatation. Bronchoscopy</item>-->
+    <!--        <item>M.B.B.S. from KIMS,Hubli 1987,KUD M.D. in OBG,from KIMS,Hubli 1994 ,KUD Over 24 years of experience in the field of Obstetrics and Gynecology Professor and Unit head ,Dept. Of OBG, KIMS Hubli Special Interests: High risk pregnancy Diabetes in Pregnancy clinic Infertility Gynaec endoscopy,Laparoscopy and Hysteroscopy,Fellow in Gynaec endoscopy Preventive Oncology and gynaec Cancer precvention Clinic Adolescent Gyneacology Menopause clinic Nondescent Vaginal Hystrectomy Trained in Gynaec oncology Trained in Tubal recanalisation</item>-->
+    <!--        <item>DR.KIRAN ASHOK KATTIMANI (M.D. (Gen.Medicine), D.M. (Oncology) Qualification: -MBBS, KIMS, Hubli, Karnataka university Dharwad MD (Gen Medicine), BLDE, Bijapur, RGUHS, Banglore DM (Medical Oncology), GCRI, Ahmedabad, Gujarat University 1.)	Academic and professional Appointments:- Lecturer in Dept of general medicine. Shri B M patil medical college Bijapur 2004(july)-2005(july) 1)	Consultant Medical Oncologist at Bangalore Institute of Oncology (BIO)from September 2008 to April 2009 2)	Consultant Medical Oncologist at KCTRI, Navnagar, and Hubli from June 2009 to may 2011. Scientific Activities:-Papers presented 1)	HIV related malignancies –profile in a developing country .Two year experience at a regional cancer centre. Poster Presentation at international HIV Congress 2006.Mumbai 2)	Paediatric brain Tumours experience at a regional cancer Centre in india (SIOP oct 2007 A International Pediatric Oncology Conference) 3)	Teratoid Willms Tumour Experience at a regional cancer centre in India. (SIOP oct 2007) 4)	Cefipime monotherapy in paediatric patients ib febrile neutropenia. (SIOP oct2007) 5)	Single institute review of Hodgkin’s disease in children. (SIOP oct2007) 6)	Experience of peripheral blood stem cell collection in pediatric at GCRI, AHmedabad.(SIOP oct 2007) 7)	Myasthenia Gravis with Imatinib –A case report Published in Gujarat Medical Journal.2007 	Participated as principal Investigator in many multinational Drug Trials 	Delivered talks at national and state level meets.</item>-->
+    <!--        <item>-</item>-->
+    <!--        <item>Dr. Manjuprasad. G. B (MBBS, M.S.(Gen Surgery) M.Ch (Urology) Qualification: - MBBS (KMC, HUBLI KARNATAKA UNIVERSITY), 1996 MS(GEN SURGERY) MMC, MYSORE RGUHS BANGLORE, 2001 MCh UROLOGY BMCRI BANGLORE RGUHS BANGLORE, 2013 Field of Expertise: - MCH / Urology 	Working in the department of surgeries for the last 11 years. 	Completed MCh degree in urology in July 2013. 	Worked in renal transplantation for 6 months. 	Working in Tatwadarsha from last 4 Years Special interest: - Renal transplantation 	End urological procedures for the management of urinary tract diseases. 	Urethral structure rearrangement. Department of Urology The department of Urology at Tatwadarsha hospital,Hubli is dedicated to providing state-of-the-art medical and surgical care in all aspects of adult and paediatric urology. We provide patient oriented management of cancer and benign urological diseases by integrating and leveraging our combined expertise. Department of urology offers services for urological emergencies all kind of illness like bladder,Kidney, Urethra, prostrate, urinary stone diseases. Endoscopic procedures such as PCNL, Laparoscopic, urological surgeries Ureteroscopy, Cystolithoplexy urology stone diseases Trans-urethral resection of (TURP) Ureterorenoscopic Lithotripsy(URSL) Urology - Facilities The Urology specialty has all the necessary equipments including urodynamics machine, lithotripsy, Laser machine, flexible laparoscopic instruments etc. The hospital has specially trained technicians for assisting in the office and surgical procedures Comprehensive care for the urinary stone diseases Stone disease is a very common problem all over the world. Stones can either be managed by lithotripsy and or may need various endourological procedures to remove the stones without open surgery. Lithotripsy A method of treating kidney and ureteric stones without surgery, using the latest Dornier lithotriptor-Delta model. One of the best machines available for the purpose. Both x-ray and Ultrasound controls are available on this machine. The positioning, focussing and delivery of shock waves are all controlled by advanced computerized system with safety cut-offs to prevent damage by human error. Patients does not need any hospital stay and can go home same day. Percutaneous Renal Surgery (PCM) Here 1 cm hole is made in kidney to remove stones after breaking it into smaller pieces. There is a minimal pain and discomfort and patients can go home in 48 hours. Even bigger stones and stag horn stones can be safely managed with this modality. Some of the patients may also need help of lithotripsy to get complete stone removal. Intra-renal stone surgery by flexible scopes and laser lithotripsy - Here flexible scopes Here flexible scopes are passed through the urethra (from where one passes urine) and stones are removed after breaking into smaller pieces by laser. Here again patients can be discharged within 24 to 48 hours. Endourology All aspects of Endourology (surgery through a telescope, which does not require open procedures) including treatment of prostate (TURP), bladder cancers (TURBT), urethral strictures, kidney and ureteric stones (PCNL and URS) are available. Intracorporeal Lithotripsy (breaking of stones using endoscopes) using the pneumatic lithotripsy is also available.</item>-->
+    <!--        <item>Qualification:–MBBS: KMC, Hubli .Karnataka University, Dharwad (1984) D.A., KMC ,Hubli. Karnataka University, Dharwad (1987) Field of Expertise:– Worked as specialist Anesthesiologist in ministry of health, Iran for 5 years (1990–1995) Worked as specialist Anesthesiologist and critical care, ministry of health, Saudi Arabia 3 years(2000-2003) Organized and started ICU at KIMS in 1999 Freelance Anesthesiologist and critical care specialist at various hospitals of Hubli since 20years Special interest: - Anesthesia and critical care</item>-->
+    <!--        <item>Qualification:- MBBS:- VIMS Bellary 2001 DA:- VIMS, Bellary 2005 DNB:- IMMC, Mangalore 2008 Field of Expertise: - Anesthesiology and Critical care</item>-->
+    <!--        <item>Qualification: - M.B.B.S.,Govt medical college,Bellary,Gulbarga university (1992) M.S.,VMMC ,Solapur ,Shivaji university Kohlapur (1996) M.Ch., TNML, Mumbai,Mumbai university (1999) Special Interest: - Pediatric laparoscopy Field of Expertise:- 15 years of Pediatric surgery experience in the Private /Govt medical college Prof of Paed surgery KIMS, Hubli. CONSULTANT PEDIATRIC SURGEON Dr. Ravindra G Khasnis. MBBS, MS, M.Ch(Paed.surgery) Qualification:- MBBS, KMC hubli, KUD Dharwad, 1992 MS:- KMC hubli, KUD Dharwad, 1998 M.Ch:- Grant’s Medical college, Mumbai, Mumbai University, 2005 Field of Expertise:- Working as Paediatric surgeon since 2005. Special Interest:- Paediatric Urology. Details of the Department: - The team of experienced paediatric surgeons who, along with expert anaesthesiologists can handle all types of child-related surgical problems from planned surgeries to emergencies. services •	Laparoscopes, Thoracoscope •	Bronchoscope, Cystoscopes •	Pathology, radiology facilities •	Critical care facilities (PICU+NICU with ventilator support). •	State of the art operation theatres Facilities .All acquired /congenital problems in children below 12 years age which need Surgical Intervention. •	Complex congenital anomalies • Endoscopic and minimally invasive surgeries •	Birth defects: Blockages in the urinary and Intestinal Systems, Absence of anal opening, Food and windpipe disorder, Spinal cord defects, Hirschsprung’s disease •	Children problems: Bleeding from GIT, Hernia, Hydrocele, Intestinal obstruction. •	Liver diseases, Phimosis, • Problems of the chest and lung. •	Undescended testis, Urinary and Kidney problems</item>-->
+    <!--        <item>-</item>-->
+    <!--        <item>-</item>-->
+    <!--        <item>Qualification:- MBBS ,Govt. Medical College, Miraj,Shivaji University, Kolapur,( 1990) M.S (Gen surg) Govt Medical College, Miraj, Shivaji University, (1993) M.Ch (Plastic Surgery) ,Seth G.S Medical college and K.E.M Hospital Mumbai University Of Mumbai ,(1998) D.N.B (Plastic Surgery) ,(1998) Field of Expertise •	Plastic surgery Special interest:-Post trauma reconstruction and cosmetic surgery</item>-->
+    <!--        <item>Qualification: - M.B.B.S (J.N.M.C Belgaum) Dharwad university in the year 1985 M.Ch (NIMHANS) Bangalore 1992 D.N.B Delhi Field of Expertise: - Neuro Surgery •	24 years of experience handled all types of neurological and neurosurgical problems. •	Performed 10,000 surgeries on brain and spinal cord. Special Interest: - Head injury, Brain tumors, Strokes, Lumbar and cervical, Spinal lesions.</item>-->
+    <!--        <item>Dr. Sanjeev.S. Kalsoor M.B.B.S, M.S (Gen Surgery), M.Ch (Neurosurgery) Qualification:- M.B.B.S., KMC, Hubli. KUD, Dharwad, (1988) M.S (Gen Surgery) :- Govt Hospital Baroda, Sayajirao University Baroda, 1992. M.Ch (Neurosurgery) :- Grant Medical college, Bombay, Bombay university, 1995. Special interest:- Neurosurgery. Field of Expertise:- Worked in Neurosurgery since 1989 at Baroda Medical college Worked at Sir J.J. Hospital Mumbai til 1995 then worked as Chief Clinical Asst to Dr. Keki Ture Bombay Hospital for 1 year. Practiced Neurosurgey at Hubli for past 18 years, associated as consultant at various hospitals Vivekanand Hospital, Dr. R.B Patil Hospital, Jitturi Hospital, Shakuntala Hospital, Manvi Hospital and Sneha Hospital. Operated more than 8000 operations including various type of head injuries, brain tumors, hydrocephalus, caranio plasty, cewical / lumber and dorsal, spine lesions and injuries including brachial plexus and peripheral nerve lesions, special interest like per-cutaneous disc nucleoplasty and endoscopic and neuroscopic spine surgeries. DEPARTMENT OF NEUROSURGERY The department of Neurosurgery at Tatwadarsha Hospital is reputed for the qualified team who are capable of handling any kind of Emergency and elective medical conditions. Our experienced doctors have the necessary expertise to conduct all types of complex surgeries pertaining to brain. The department is equipped to perform disc replacements, skull base surgeries and complex spine surgeries with round-the-clock support facility. The Neurosurgery facility at Tatwadarsha has a dedicated Critical Care Unit with Ventilators, online Monitors, ICP Monitors, Central Oxygen and Suction, Operating Microscopes, and Neuro-endoscopes. Facilities:- •	CT Scan •	Operating Microscope •	High-speed Drill •	Ultra hi-tech modular theatre with hepafilters and pendants. •	Neuro ICU – Damaica Philips monitors •	LED KLS martin germany OT lights •	Damaica Philips anesthesia work stations. Surgeries:- • Craniotomy •	Spine Fixations •	Laminectomy •	Stroke Surgery •	Epilepsy Surgery •	Micro-Neurosurgery for all types of Intracranial Tumors •	Intensive Trauma Management.</item>-->
+    <!--        <item>A well known Cancer surgeon in North Karnataka with over 13 years of experience. After his medical graduation from J.N.Medical College, Belgaum, he completed his post graduation training in General Surgery at N. H. L. Medical college, Ahmedabad, Gujarat University. He then completed his M.Ch. super specialization in Surgical Oncology from the prestigious Gujarat Cancer centre and Research Institute (GCRI), B.J.Medical college,Gujarat University,Ahmedabad in 2004. Specialized Training at Global Centre of Excellence: Fellowship in GI cancer surgery and Breast cancer surgery at city hospital, Belfast, Northern Ireland. Fellowship in Breast cancer surgery with special emphasis on Onco mammaplasty( Breast Conserving Surgery) at Netherlands Cancer Institute (NKI-AVL), Amsterdam, Holland. SPECIAL INTERESTS AND EXPERTISE Transthoracic three field oesophagectomy for cancer Oesophagus. Breast conserving surgery/ Oncoplastic Breast surgery in Breast cancers. Liver resections- Segmental/Hemi/Extended Hemihepatectomy for Liver cancers Radical Cholecystectomy for Gall bladder Cancers Pancreatico- duodenectomy(Whipples) for Pancreatic Cancers Sphincter preserving rectal surgery for Rectal Cancers Radical/ Partial Nephrectomy /IVC Thrombectomy for Renal cancers Radical Cystoprostatectomy with Neobladder construction for Urinary Bladder Cancers Nerve preserving Radical Hysterectomy for Cervical (Uterine) Cancers Fertility preserving Cytoraductive surgery for Ovarian Cancer in young women. ACADEMIC ACHIEVEMENTS "COMPARATIVE STUDY OF APR VS LOW ANTERIOR RESECTION FOR MID AND LOWER THIRD CANCER RECTUM" THESIS FOR MCh PRESENTED TO GUJARAT UNIVERSITY, AHMEDABAD, INDIA IN 2004. 'A SERIES OF OESOPHAGECTOMIES DONE BY SINGLE SURGEON' WON MAHADEVAN AWARD FOR BEST PAPER AT STATE CHAPTER SURGICAL CONFERENCE 2008; SELECTED FOR PRESENTATION AT NATIONAL CONFERENCE OF SURGERY, ASICON 2009 AT LUDHIANA. WON BEST VIDEO AWARD-VIDYARANYA VIDEO AWARD FOR HEMIGLOSSECTOMY AND RND AT KARNATAKA STATE CHAPTER SURGICAL CONFERENCE KSCASI-2008. PRESENTED POSTER ON “A STUDY OF TRANSTHORACIC OESOPHAGECTOMY WITH TWO FIELD LYMPHADENECTOMY VS TRANSHIATAL OESOPHAGECTOMY FOR CANCER OESOPHAGUS BY SINGLE SURGEON” AT 13 TH WORLD CONGRESS OF GI CANCER AT BARCELONA, SPAIN JUNE 2011. TRAINED IN ONCOPLASTIC BREAST SURGERY UNDER PROF.EMEIL RUTGER AT NKI-AVLH,AMSTERDAM ,NETHERLANDS PRESENTED A PAPER ON ‘A STUDY OF RESPONSE TO NEOADJUVANT CHEMOTHERAPY AND OUTCOMES IN RECTAL CANCER AT A SINGLE CENTRE ’ AT EUROPEAN COLORECTAL CONGRESS,ST.GALLEN,SWITZERLAND,2014. HE HAS BEEN INVITED FACULTY AT VARIOUS STATE AND NATIONAL CONFERENCES. ATTENDED VARIOUS NATIONAL and INTERNATIONAL CONFERENCES AND WORKSHOPS REGULARLY TO UPDATE KNOWLEDGE AND SKILLS</item>-->
+    <!--        <item>-</item>-->
+    <!--        <item>-</item>-->
+    <!--        <item>13 years of vast experience in Obstetrics and Gynecology with exposure to Rural and Tertiary Health Care. Former Assistant professor in the Dept.of OBG,KIMS,Hubli. Trained with special interests: High-Risk Pregnancy care and Critical care in Obstetrics, Basic Infertility management and IUI, Colposcopy and preventive oncology, Laparoscopy and Hysteroscopy Gynaec surgeries. Consultation Timings : Mon to Sat : 10AM to 2PM and 6PM to 8PM. For appointments Contact : 0836-2234422/28 /33 and Mob: 8762651842. For emergency contact : 0836-2234400</item>-->
+    <!--        <item>Qualification:-MBBS ,M.R. Medical college, Gulbarga, Gulbarga University 1996 DCH :Bangalore Medical College, RGUHS,Banglore (2000) DNB [pedia]: Dr.B.R Ambedkar Medical college Banglore.NBE,NEW-Delhi (2001) Special Interest:-Neonatology Social Pediatrics Pediatric Neurology Field of Expertise: - Lecturer in Dept of pediatrics VIMS, Bellary 3 years Asst Prof:-Pediatrics,KIMS,Hubli 7 years Associate Prof.Pediatrics,KIMS,Hubli 2 years Total Pediatric experience 17 years</item>-->
+    <!--        <item>Qualification:-M.B.B.S.,Karnataka Institute of Medical Sciences,Karnataka University Dharwad (1996) D.A. ,Karnataka Institute of Medical Sciences,Karnataka University, Dharwad (2000) Special Interest: - Trauma management (A and E) Intensive Care</item>-->
+    <!--        <item>Qualification:-MBBS (1990 Dec), KMC, Hubli MD (1996 May) PGIMER, Chandigarh DNB (1998 Dec) NAMS, New Delhi FRCA (London) (2005 May) ,Royal college of Anesthetist Field of Expertise: - Dr Kadur .S.B is Consultant in Anesthesia and Pain therapy .He is a fellow of Royal college of Anesthesia Lodon and awarded FRCA in the year 2005.Having trained as anesthetist in UK, He was consultant in Anesthesia at Royal Sussex country hospital Brighton,UK. At Tatwadarsha hospital Hubli he is one of the leading consultants in Anesthesia, Intensive care and pain Medicine Special Interest:-Anesthesia, Intensive care and pain therapy.</item>-->
+    <!--        <item>Qualification:-MBBS, Mysore Medical College, Mysore RGUHS,( 2001) M.D (PAED) Mysore Medical College, Mysore, RGUHS (2007) Fellow in Neonatology, K.R Hospital, RGUHS (2008) Field of Expertise •	Consultant Neonatologist/Pediatrician At Dr.Kamani Rao Hospital ,Jayanagar and assisted conception centre Malleshwaram,Banglore •	Assistant professor of Pediatrics, KIMS,Hubli since 4years •	PALS instructor since 2years •	Secretary IAP Dharwad District for year 2014,2012,2011 •	Neonatology /Pediatric intensive care /High risk Neonatology follow up</item>-->
+    <!--        <item>Qualification:- MBBS,Bangalore Medical College, Rajiv Gandhi University of Health Science, (2002). M.D. :- Command Hospital Airforce ,Rajiv Gandhi University of Health Science, (2007). D. Diab :- Chennai (MV Diabetes) Special interest:- Diabetology, Thyroid Diseases, Asthama and Critical care. Field of Expertise:- •	Worked as Asst Prof in PIMS, Pondicherry, KIMS Hubli, JNMC Belgaum. •	Working in Tatwadarsha As Physician form last 4 Years Details of the Department 1)	Medicine:-Regular OPD and IPD Patients Care 2)	Emergency and Critical care 3)	Thyroid clinic 4)	Asthama clinic. 5) Diabetic Clinic: -1) Diabetics OPD Follow-up and Monitor 2) Dietary Advice 3) Regular Screening for complication of Diabetics 6) HIV Cases: - HIV Counseling Evaluation of Treatment OPD and IPD Care</item>-->
+    <!--        <item>Qualification:- MBBS, Goa Med College, Goa university, 1996. MS:- Goa Med College, Goa university, 2000. FGIS:- VG Hospital, Coimbatore 2003 FLAP, FIAGES:- Ahmedabad, 2012 Field of Expertise:- 21 years Special Interest:- Lapraroscopy, Endoscopy, Trauma, Gen Surgery.</item>-->
+    <!--        <item>Qualification: MBBS (JJMMC) MS (VSSMC) Mch (KEM, Mumbai) Fellow in Adult Cardiac Surgery (Green lane clinic, Auckland, Newzealand) Field of Expertise: Cardiac, Thoracic and vascular surgery Special Interest:  Beating Heart Bypass Surgery  Valve Repair/ Replacement  Congenital heart Surgery  Peripheral vascular Surgery  Traumatic vascular Repair  LASER therapy (EVLT) varicose vein  Thoracic surgeries.  Heart and Lung Transplant Dr. Ullas Bisleri, is extensively experienced in all type of cardiac, thoracic and vascular surgeries. He is trained in prestigious KEM institute, Mumbai, worked as consultant (Jr) in Apollo Chennai and done his fellowship in Green lane clinic, Auckland, New Zealand. He takes special interest in beating heart bypass surgery with near 100% successes rate. He has done innumerable operations of adult and congenital cardiac surgeries. He also does all peripheral vascular surgeries and specializes in limb saving vascular repair in traumatic vascular injuries. He is a one of the few surgeons providing No-scar, No-Scalpel LASER Surgery for varicose vein in this part of Karnataka. He has extensive experience in heart and lung transplant in Green Lane Clinic, Auckland, New Zealand. Department of CVTS is having all modern equipments and instruments. Cardiac ICU with experienced cardiac intensivist has ensured excellent results.</item>-->
+    <!--        <item>MBBS, MD, DM (cardiology). I am Interventional cardiologist. My areas of expert are angioplasty, stenting, angiography, primary angioplasty (PTCA) pacemaker implantation, heart failure, coronary artery disease, Ballon mitral valvotomy (PTMC), device PDA device closer, ASD device closer, heart attack, MI, STEMI, unstable angina. Associate professor of cardiology KIMS Hubli. Director and consultant at Tatwadarsha Hospital Hubli. The owner of Jeevan Jyoti Hospital Hubli. Mobile +91 9343403620.</item>-->
+    <!--        <item>Qualification: - MBBS : KMC, Hubli Karnataka University Dharwad 1995 MD (Internal Medicine), PGI ,Chandigarh 1998 DM.( Nephrology), PGI, Chandigarh 2003 DNB (Nephrology), DNB, Delhi 2004 *14years post DM experience *In Dialysis :Dialysis access creation and care of Sick patients *Dealed more than 3, 00,000 dialysis Special interest: - Management of Chronic Kidney disease and Acute Glomerular Disease</item>-->
+    <!--        <item>Qualification:- MBBS.: J.S.S.M.C, Mysore (1993) M.S (ortho): Dr.B.R.Ambedkar Medical College,.Banglore University(1998) Special interest:-Advanced Complex trauma/Emergency Joint Replacement Field of Expertise :- •	14 years of experience post Fellowship in advanced Trauma and joint replacement at Kenton Hospital Bruderholz –Basel, Switzerland -2003. •	Working as Consultant Orthopedician from last 4 Years</item>-->
+    <!--        <item>Dr. Vijaykrishna.L. Kolur MBBS, MD, DM(Cardiology) Qualification:- MBBS, JNMC Belgaum,KUD,2000. MD:- B.S. Medical college Ahmedabad, Gujarat University, 2005 . DM(Cardiology):- Grant Medical College, Mumbai University, 2008. Field of Expertise:- 9 Years Special Interest:- Working as Interventional Cardiologist since 5 years . Specialized in doing Angioplasty, Primary elective,. Done more than 1000 Angioplasty and more than 10,000 Angiography, Done more than 400 Balloon MITRAL valvuloplasty.</item>-->
+    <!--        <item>Qualification :- MBBS.,KMC, Hubli. Karnataka University, Dharwad (1995) M.D (Pedia) AIIMS-New Delhi-(1999) DCEH EPA (USA) 2007 Special Interest:- PICU:-Many babies with severe form of Dengue complications recovered very well in2007, 2011 epidemics severe/8 handled well more than 1000 babies. Poisoning cases well managed with almost nil morality Field of Expertise: - 15 years Pediatrics –intensive care, childhood TB and HIV, Vector Borne Diseases Detail of the Department:- Neonatology –Well equipped Neonatal intensive care,unit(10bed) to take care of premature baby/extremely very low/term baby with all complications Therapy carried out:- •	Ventilation (artificial respiration) •	Phototherapy •	Exchange transfusion •	Total parenteral Nutrition(TPN) Qualified neonatologist will take care of NICU</item>-->
+    <!--        <item>Plastic Reconstructive and Cosmetic surgeon, Practicing in Hubballi since 2006. Completed MBBS in 1996, from J N Medical College, Belagaavi. MS in General Surgery in 2000, from Dr. V M Medical college Solapur. MCh, in Plastic Reconstructive and Cosmetic surgeon in 2004, from T. N. Medical College and B. Y. L Nair Hospital, Mumbai. His areas of Special Interest are Cosmetic Surgery, Burns, Trauma, Microvascular and Hand Surgery.</item>-->
+    <!--    </string-array>-->
+
+</resources>

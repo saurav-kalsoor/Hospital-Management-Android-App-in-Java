@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:id="@+id/nav_home"/>
+
+        <item
+            android:icon="@drawable/ic_appointment"
+            android:title="Appointment"
+            android:id="@+id/nav_appointment"/>
+
+        <item
+            android:icon="@drawable/ic_prescription"
+            android:title="Prescription"
+            android:id="@+id/nav_prescription"/>
+
+        <item
+            android:icon="@drawable/ic_doctors"
+            android:title="Doctors"
+            android:id="@+id/nav_doctors"/>
+
+        <item
+            android:icon="@drawable/ic_medical_record"
+            android:title="Medical Records"
+            android:id="@+id/nav_medical_records"/>
+
+        <item
+            android:icon="@drawable/ic_upload_doc2"
+            android:title="Upload Documents"
+            android:id="@+id/nav_upload_doc"/>
+
+        <item
+            android:icon="@drawable/ic_edit_profile"
+            android:title="Edit Profile"
+            android:id="@+id/nav_edit_profile"/>
+
+    </group>
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:icon="@drawable/ic_blog"
+                android:title="Blog"
+                android:id="@+id/nav_blog"/>
+
+            <group>
+                <item
+                    android:icon="@drawable/ic_contact_us"
+                    android:title="Contact Us"
+                    android:id="@+id/nav_contact_us"/>
+                <item
+                    android:icon="@drawable/ic_person_pin_black_24dp"
+                    android:title="About Developer"
+                    android:id="@+id/nav_about_us"/>
+            </group>
+
+            <item
+                android:icon="@drawable/ic_log_out"
+                android:title="Log Out"
+                android:id="@+id/nav_log_out"/>
+
+        </menu>
+    </item>
+</menu>
