@@ -1,18 +1,22 @@
-<h1>Hospital-Management-Android-App-in-Java</h1>
+# Hospital-Management-Android-App-in-Java 
 
-This is a simple Hospital Management App of a hospital. The Features of this App are as follows:<br />
-1.Sign In using your mobile number and get OTP – this feature is done with the help of Google’s Firebase Authentication.<br />
+---
+
+### This is a simple Hospital Management App of a hospital. The Features of this App are as follows:<br />
+- #### Sign In using your mobile number and get OTP:
+      - this feature is done with the help of Google’s Firebase Authentication.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/54215324/101052494-adb68880-35ac-11eb-9822-0727c74176e4.jpeg" width="300" height="600">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/101052494-adb68880-35ac-11eb-9822-0727c74176e4.jpeg" width="300" height="600"></kbd>
 </p>
 
-2.Create Your Profile for once i.e. patient’s profile – this data will be stored in Firebase Firestore.
+- #### Create Your Profile for once i.e. patient’s profile: 
+       – this data will be stored in Firebase Firestore.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/54215324/101055052-92994800-35af-11eb-991b-1ac001d983ba.jpeg" width="300" height="600">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/101055052-92994800-35af-11eb-991b-1ac001d983ba.jpeg" width="300" height="600"></kbd>
 </p>
 
-3.The MainActivity of this App has a Navigation Menu Drawer and many fragments such as
+- #### The MainActivity of this App has a Navigation Menu Drawer and many fragments such as:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54215324/101055411-e146e200-35af-11eb-9978-15113b9c4836.jpeg" width="300" height="600">
@@ -127,3 +131,9 @@ ix)Contact us – this takes you to the hospital’s contact us page.<br />
 </p>
 
 xi)Log out – it logs out the current user.
+
+<p align="center">
+  <kbd><img  src="https://user-images.githubusercontent.com/54215324/101058892-af377f00-35b3-11eb-825a-2e934c90b715.jpeg" width="300" height="600" /></kbd>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd><img  src="https://user-images.githubusercontent.com/54215324/101058788-8a430c00-35b3-11eb-9dcc-255065250904.jpeg" width="300" height="600" /></kbd>
+</p>
