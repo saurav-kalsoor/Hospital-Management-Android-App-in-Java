@@ -6,7 +6,7 @@
 - #### Sign In using your mobile number and get OTP:
       - this feature is done with the help of Google’s Firebase Authentication.
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101052494-adb68880-35ac-11eb-9822-0727c74176e4.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102100866-efb6b880-3e4f-11eb-8e8d-0785dcf54423.gif" width="300" height="600"></kbd>
 </p>
 
 ---
