@@ -23,7 +23,7 @@
 - #### The MainActivity of this App has a Navigation Menu Drawer and many fragments such as:
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101055411-e146e200-35af-11eb-9978-15113b9c4836.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102101675-ef6aed00-3e50-11eb-8b3a-b2088eae665c.gif" width="300" height="600"></kbd>
 </p>
 
 - Home Fragment<br />
