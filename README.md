@@ -15,7 +15,7 @@
        – this data will be stored in Firebase Firestore.
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101055052-92994800-35af-11eb-991b-1ac001d983ba.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102107771-17aa1a00-3e58-11eb-92ff-dbc1ebf197b4.gif" width="300" height="600"></kbd>
 </p>
 
 ---
@@ -53,8 +53,6 @@
  - #### Call Ambulance:
       – on click it opens a fragment with a button where on clicking it , it calls the ambulance.
 
-
-
 <p align="center">
 <kbd><img src="https://user-images.githubusercontent.com/54215324/102102247-964f8900-3e51-11eb-8783-e2d54f8409e9.gif" width="300" height="600"></kbd>
 </p>
@@ -75,7 +73,7 @@
 - #### Find Doctors:
       – opens Doctors Fragment.
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101056977-8ca46680-35b1-11eb-87db-9455c5d89466.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102106168-40c9ab00-3e56-11eb-8dfa-d5221b169fb9.gif" width="300" height="600"></kbd>
 </p>
 
 ---
@@ -83,7 +81,7 @@
 - #### View Prescriptions:
       – opens prescription fragment.
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101057127-b78eba80-35b1-11eb-88a9-4f786200bce5.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102106385-838b8300-3e56-11eb-8bc6-4101a52ee87e.jpeg" width="300" height="600"></kbd>
 </p>
 
 ---
@@ -92,9 +90,7 @@
       – opens medical record fragment.
       
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101057430-076d8180-35b2-11eb-817b-8f04ce64a6b2.jpeg" width="300" height="600"></kbd>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101057441-089eae80-35b2-11eb-8147-c2ca4c1bf9eb.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102107939-5049f380-3e58-11eb-809b-78fd93e4185e.gif" width="300" height="600"></kbd>
 </p>
 
 ---
