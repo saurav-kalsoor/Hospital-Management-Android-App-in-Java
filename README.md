@@ -56,7 +56,7 @@
 
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101056514-10118800-35b1-11eb-89b1-f212047551df.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102102247-964f8900-3e51-11eb-8783-e2d54f8409e9.gif" width="300" height="600"></kbd>
 </p>
 
 ---
@@ -65,7 +65,9 @@
       – opens book appointment fragment.
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101056819-5f57b880-35b1-11eb-99aa-25f536f65854.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102105710-baad6480-3e55-11eb-8135-4be0a19c065d.gif" width="300" height="600"></kbd>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102103405-f72b9100-3e52-11eb-9fee-124a7d673f8b.jpeg" width="300" height="600"></kbd>
 </p>
 
 ---
