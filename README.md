@@ -100,9 +100,9 @@
         where on pressing it you can book a new appointment. And all this data is stored in Firestore.
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101057793-734fea00-35b2-11eb-9f78-939cdd3666be.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102222712-c9555380-3f09-11eb-81fa-222fd361be19.jpeg" width="300" height="600"></kbd>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101057796-73e88080-35b2-11eb-8eb1-52732d64096d.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102222888-06b9e100-3f0a-11eb-9499-6823d288fef4.jpeg" width="300" height="600"></kbd>
 </p>
 
 ---
@@ -112,7 +112,7 @@
         new prescriptions. And all this data is in Firestore.
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101058054-bf029380-35b2-11eb-831a-d26b0f755f62.jpeg" width="300" height="600"></kbd>
+<kbd><img src="" width="300" height="600"></kbd>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd><img src="https://user-images.githubusercontent.com/54215324/101058056-bf9b2a00-35b2-11eb-9f1b-f836a490a1b1.jpeg" width="300" height="600"></kbd>
 </p>
