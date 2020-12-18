@@ -112,7 +112,7 @@
         new prescriptions. And all this data is in Firestore.
 
 <p align="center">
-<kbd><img src="" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102580467-9c30bd00-4124-11eb-94dc-f98f73d3b46f.gif" width="300" height="600"></kbd>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd><img src="https://user-images.githubusercontent.com/54215324/101058056-bf9b2a00-35b2-11eb-9f1b-f836a490a1b1.jpeg" width="300" height="600"></kbd>
 </p>
