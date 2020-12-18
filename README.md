@@ -72,6 +72,8 @@
 
 - #### Find Doctors:
       – opens Doctors Fragment.
+      – this fragment contains the list of doctors working in this hospital with their names,
+        qualifications and specified fields.
 <p align="center">
 <kbd><img src="https://user-images.githubusercontent.com/54215324/102106168-40c9ab00-3e56-11eb-8dfa-d5221b169fb9.gif" width="300" height="600"></kbd>
 </p>
@@ -88,6 +90,9 @@
 
 - #### Medical Records:
       – opens medical record fragment.
+      – this fragment contains all the medical records such as x-ray images or some other
+        images and you can also add new records.
+
       
 <p align="center">
 <kbd><img src="https://user-images.githubusercontent.com/54215324/102107939-5049f380-3e58-11eb-809b-78fd93e4185e.gif" width="300" height="600"></kbd>
@@ -115,27 +120,6 @@
 <kbd><img src="https://user-images.githubusercontent.com/54215324/102580467-9c30bd00-4124-11eb-94dc-f98f73d3b46f.gif" width="300" height="600"></kbd>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd><img src="https://user-images.githubusercontent.com/54215324/101058056-bf9b2a00-35b2-11eb-9f1b-f836a490a1b1.jpeg" width="300" height="600"></kbd>
-</p>
-
----
-
-- #### Doctor Fragment:
-      – this fragment contains the list of doctors working in this hospital with their names,
-        qualifications and specified fields.
-
-<p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101056977-8ca46680-35b1-11eb-87db-9455c5d89466.jpeg" width="300" height="600"></kbd>
-</p>
-
----
-
-- #### Medical Record Fragment:
-      – this fragment contains all the medical records such as x-ray images or some other images and you can also add new records.
-
-<p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101057430-076d8180-35b2-11eb-817b-8f04ce64a6b2.jpeg" width="300" height="600"></kbd>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101057441-089eae80-35b2-11eb-8147-c2ca4c1bf9eb.jpeg" width="300" height="600"></kbd>
 </p>
 
 ---
