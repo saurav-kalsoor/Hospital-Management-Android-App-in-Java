@@ -3,6 +3,9 @@
 ---
 
 ### This is a simple Hospital Management App of a hospital. The Features of this App are as follows:<br />
+
+### Patient Side App:
+
 - #### Sign In using your mobile number and get OTP:
       - this feature is done with the help of Google’s Firebase Authentication.
 <p align="center">
@@ -129,7 +132,9 @@
         in Firebase Storage.
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/101058495-30dadd00-35b3-11eb-98e9-9aaa16e225e4.jpeg" width="300" height="600"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102581307-4a893200-4126-11eb-8291-ff3fe6868694.gif" width="300" height="600"></kbd>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102581263-33e2db00-4126-11eb-948f-bdc9f4c726b8.jpeg" width="300" height="600"></kbd>
 </p>
 
 ---
@@ -165,3 +170,26 @@
       – it logs out the current user.
 
 ---
+
+### Doctor Side Login:
+
+- #### Login:
+      - Login using Doctor Username and Password.
+
+<p align="center">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102582305-50801280-4128-11eb-8325-3c8ffe121a79.gif" width="300" height="600"></kbd>
+</p>
+
+---
+
+- #### Home Fragment:
+
+<p align="center">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102582012-b6b86580-4127-11eb-9469-8adc1e4099ea.jpeg" width="300" height="600"></kbd>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102582019-b9b35600-4127-11eb-9c16-717526f8ef53.jpeg" width="300" height="600"></kbd>
+</p>
+
+---
+
+
