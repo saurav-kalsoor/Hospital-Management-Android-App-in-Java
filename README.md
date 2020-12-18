@@ -192,4 +192,45 @@
 
 ---
 
+- #### Approve Appointments Fragment:
+      - Go through your appointment requests and accept/reject the appointments of the 
+        patients according to convenience.
+
+<p align="center">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102582485-ba98b780-4128-11eb-8767-8a4c9aba6462.gif" width="300" height="600"></kbd>
+</p>
+
+---
+
+- #### Pending Appointments Fragment:
+      - Go through your pending appointments and also message/call your patients.
+
+<p align="center">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102582771-49a5cf80-4129-11eb-9757-cb99c54126d1.gif" width="300" height="600"></kbd>
+</p>
+
+---
+
+- #### Completed Appointments Fragment:
+      - Go through your completed appointments to get details.
+
+<p align="center">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102582874-8376d600-4129-11eb-8c08-ae9586260b94.jpeg" width="300" height="600"></kbd>
+</p>
+
+---
+
+- #### Patients Prescriptions Fragment:
+      - Go through your patients prescriptions and also edit/add medicine name and duration etc.
+
+<p align="center">
+<kbd><img src="https://user-images.githubusercontent.com/54215324/102583138-1a439280-412a-11eb-828e-0dcebea540e8.gif" width="300" height="600"></kbd>
+</p>
+
+---
+
+- #### Log Out.
+
+---
+
 
