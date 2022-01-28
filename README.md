@@ -132,8 +132,6 @@
         in Firebase Storage.
 
 <p align="center">
-<kbd><img src="https://user-images.githubusercontent.com/54215324/102581307-4a893200-4126-11eb-8291-ff3fe6868694.gif" width="300" height="600"></kbd>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd><img src="https://user-images.githubusercontent.com/54215324/102581263-33e2db00-4126-11eb-948f-bdc9f4c726b8.jpeg" width="300" height="600"></kbd>
 </p>
 
